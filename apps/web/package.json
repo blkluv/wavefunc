@@ -4,6 +4,7 @@
     "type": "module",
     "scripts": {
         "dev": "bunx --bun vite --host 0.0.0.0",
+        "build": "bunx --bun vite build",
         "preview": "bunx --bun vite preview",
         "test:env": "bun run src/env-test.ts"
     },
